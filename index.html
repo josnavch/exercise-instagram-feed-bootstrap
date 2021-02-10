@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <!-- Style CSS Library -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font-Awesome Icon Library    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>The Instagram Photo Feed (con Bootstrap)</title>
+  </head>
+  <body>
+   
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<!-- Barra de Navegación -->
+
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+     <!-- <img src="https://freepngimg.com/thumb/logo/62837-instagram-icons-photography-computer-logo-icon.png" alt="Instagram"  class="d-inline-block align-top">
+      Instagram
+    </a> -->
+        <i class="fa fa-instagram"></i> Instagram
+     <form class="d-flex">
+      <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"> New post feet</button>
+
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle fa fa-cog px-2" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"></button>
+          <!--  <button class="btn btn-secondary dropdown-toggle fa fa-cog" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"></button> -->
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </form>
+  </div>
+</nav>
+
+<!-- Fin de Barra de Navegaciónn --> 
+
+
+
+
+<!-- Dashboard de Imagenes -->
+<div class="container">
+<div class="row">
+    <div class="col bg-success">1</div>
+    <div class="col bg-primary">2</div>
+    <div class="col bg-warning">3</div>
+</div>
+<div class="row">
+    <div class="col bg-success">1</div>
+    <div class="col bg-primary">2</div>
+    <div class="col bg-warning">3</div>
+</div>
+<div class="row">
+    <div class="col bg-success">1</div>
+    <div class="col bg-primary">2</div>
+    <div class="col bg-warning">3</div>
+</div>
+</div>
+<!-- Fin Dashboard de Imagenes-->  
+
+<!-- Modal -->
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin Modal -->
+
+  </body>
+</html>
