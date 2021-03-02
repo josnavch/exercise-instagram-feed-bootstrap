@@ -6,3 +6,20 @@
   font-size: 22px;
   cursor: pointer;
 }
+
+.imagen{
+    text-align: center;
+    width: 100%;
+    image-rendering: auto;
+    margin: 2px 2px 0px 0px;
+    padding: 2px 2px 0px 0px;
+    
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
